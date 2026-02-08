@@ -4,7 +4,7 @@ public class StringDemo {
         String b = "Hello";
         System.out.println(a);
 //        string classes
-        String s = new String("hello");
+        String s = new String("Hello");
         String s1 = new String("Hello");
         System.out.println(a.equals(b));
         System.out.println(a==b);
