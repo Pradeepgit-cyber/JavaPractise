@@ -2,22 +2,35 @@ import org.example.CentralTraffic;
 
 public class AustralianTraffic implements CentralTraffic {
 
-    public static void main(String[] args){
+    public static void main(String[] args)
+    {
+        AustralianTraffic a = new AustralianTraffic();
+        a.greenGo();
+        a.redstop();
+        a.flashYellow();
 
     }
 
     @Override
-    public void greenGo() {
+    public void greenGo()
+    {
+        System.out.println("green go implemented");
 
     }
 
     @Override
-    public void redtop() {
+    public void redstop()
+    {
+        System.out.println("red stop implemented");
 
     }
 
     @Override
-    public void flashYello() {
+    public void flashYellow()
+    {
+        System.out.println("flash yellow implemented");
 
     }
+
+
 }
